@@ -49,3 +49,30 @@ Para testar, utilize a collection do Postman ou os seguintes endpoints
 
 ``` GET http://localhost:8080/hello/{nome}```
 
+### Person CRUD
+
+- Buscar todas as pessoas 
+```GET http://localhost:8080/people```
+
+- Buscar pessoa por ID
+```GET http://localhost:8080/person/{id}```
+
+- Salvar nova pessoa 
+```POST http://localhost:8080/person``` 
+  passando JSON no body da requisição 
+```
+    {
+        "name": "Nome da pessoa",
+        "email": "email@pessoa.com"
+    }
+```
+- Editar pessoa ```PUT http://localhost:8080/person/{id-da-pessoa-a-editar}```
+  passando JSON no body da requisição 
+```
+    {
+        "name": "Novo Nome da pessoa",
+        "email": "novo-email@pessoa.com"
+    }
+```
+- Deletar pessoa ```DELETE http://localhost:8080/person/{id}```
+
