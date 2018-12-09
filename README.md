@@ -22,3 +22,30 @@ Caso essa seja sua primeira vez programando com Java, não se preocupe. Preparam
 
 ## Em caso de dúvidas ou problemas na configurações
 Se deu alguma coisa errada, você pode entrar em contato com a gente no slack da comunidade ou por e-mail para Juliana (j.myaki@gmail.com) ou para a Nara (nara.sakamoto@gmail.com) . Se você ainda não está no nosso slack, peça um convite pra nós por e-mail. Recomendamos muito que entre no slack, pois lá temos muitas interações e mais pessoas pra ajudar em diversos assuntos.
+
+
+## Rodando o projeto
+Para rodar o projeto, você pode utilizar o comando do Maven Wrapper no terminal na raiz do seu projeto:
+```
+$ ./mvnw clean spring-boot:run
+```
+Ou, para utilizar o comando do maven, digite:
+```
+$ mvn clean spring-boot:run
+```
+Quando o serviço estiver iniciado, você verá uma mensagem parecida com essa no terminal:
+```
+Started PickMeApplication in 2.803 seconds
+```
+
+## Testando os serviços
+Para testar, utilize a collection do Postman ou os seguintes endpoints
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/35dc1d36596d8a4e7834)
+
+### Hello World
+
+``` GET http://localhost:8080/hello``` 
+
+``` GET http://localhost:8080/hello/{nome}```
+
