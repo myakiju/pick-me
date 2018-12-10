@@ -21,7 +21,26 @@ Pelo fato do tempo ser curto, esse workshop não será uma aula de programação
 Caso essa seja sua primeira vez programando com Java, não se preocupe. Preparamos um tutorial para te ajudar. Caso já tenha um ambiente configurado, você pode conferir se não está faltando nada. **Para essa etapa é importante que você tenha privilégios de Administrador na sua máquina**. Acesse a [Wiki](https://github.com/myakiju/pick-me/wiki) do projeto para saber mais sobre as configurações necessárias.
 
 ## Em caso de dúvidas ou problemas na configurações
-Se deu alguma coisa errada, você pode entrar em contato com a gente no slack da comunidade ou por e-mail para Juliana (j.myaki@gmail.com) ou para a Nara (nara.sakamoto@gmail.com) . Se você ainda não está no nosso slack, peça um convite pra nós por e-mail. Recomendamos muito que entre no slack, pois lá temos muitas interações e mais pessoas pra ajudar em diversos assuntos.
+Se deu alguma coisa errada, você pode entrar em contato com a gente no slack da comunidade ou por e-mail para a Juliana (j.myaki@gmail.com) ou para a Nara (nara.sakamoto@gmail.com) . Se você ainda não está no nosso slack, peça um convite pra nós por e-mail. Recomendamos muito que entre no slack, pois lá temos muitas interações e mais pessoas pra ajudar em diversos assuntos.
+
+
+## Para baixar na sua máquina
+Para baixar o projeto na sua máquina você pode **Clonar** o repositório ou **baixar como zip**. Também existe a opção de fazer um *fork*, mas não falaremos disso agora. Caso queira saber mais sobre o git, confira esse [livro online] (https://git-scm.com/book/pt-br/v2).
+
+#### Clonando do git pela linha de comando (Recomendado para Linux e OSX)
+Navegue até o diretório onde deseja colocar o projeto.
+Digite o comando 
+```
+git clone https://github.com/myakiju/pick-me.git
+```
+Verifique que foi criada uma pasta com o nome ```pick-me``` no diretório.
+
+
+#### Baixando o projeto compactado em zip
+<img src="https://i.imgur.com/oewoNe2.png" width="450">
+
+Para baixar como zip, basta clicar no botão na home do projeto e depois em "Download Zip". 
+Descompacte o arquivo num diretório de sua preferência e pronto!
 
 
 ## Rodando o projeto
