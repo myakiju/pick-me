@@ -8,7 +8,7 @@ O objetivo desse workshop será construir uma API Rest com telas para um CRUD b�
 Percebemos que muitas pessoas que começam a programar tem dificuldade de relacionar os tutoriais clássicos de algoritmos feitos no terminal com situações práticas para o dia-a-dia. Portanto decidimos trazer algo mais próximo do “mundo real” e que ajude a praticar seus algoritmos no maravilhoso mundo da web.
 
 ## O que esse workshop não é
-Pelo fato do tempo ser curto, esse workshop não será uma aula de programação pois em poucas horas não seria possível passar muito conteúdo útil. Por isso decidimos apresentar recursos para que seus estudo de programação fiquem mais divertidos e mais próximos das aplicações de mercado. Caso queiram saber mais sobre cursos online ou livros, ficaremos felizes em indicar.
+Pelo fato do tempo ser curto, esse workshop não será uma aula de programação pois em poucas horas não seria possível passar muito conteúdo útil de algoritmos. Por isso decidimos apresentar recursos para que seus estudo de programação fiquem mais divertidos e mais próximos das aplicações de mercado. Caso queiram saber mais sobre cursos online ou livros, ficaremos felizes em indicar.
 
 ## O que vamos usar
 - Spring Initializr [https://start.spring.io/]
